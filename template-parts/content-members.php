@@ -43,7 +43,7 @@
   <p class="member-info">
     <b> Country: </b>United States<br>
     <b> Position: </b> Distinguished Fellow at the Atlantic Council <br>
-    <b> Education: </b> Fletcher School of Law and Diplomacy, Tufts University </b>
+    <b> Education: </b> Fletcher School of Law and Diplomacy, Tufts University
   </p>
 </div></a>
 
@@ -54,8 +54,8 @@
   <h3 class="member-title"> BG (Ret.) Robbie Boyd </h3>
   <p class="member-info">
     <b> Country: </b>United Kingdom<br>
-    <!-- <b> Position: </b><br>
-    <b> Education: </b></b> -->
+    <b> Position: </b> Managing Partner, Gartner Consulting<br>
+    <b> Education: </b> University of Cambridge
   </p>
 </div></a>
 
@@ -67,7 +67,7 @@
   <p class="member-info">
     <b> Country: </b>France<br>
     <b> Position: </b> Professor Emeritus, École Polytechnique <br>
-    <b> Education: </b> University of Paris II Panthéon-Sorbonne </b>
+    <b> Education: </b> University of Paris II Panthéon-Sorbonne
   </p>
 </div></a>
 
@@ -162,8 +162,8 @@
   <h3 class="member-title"> Professor Keir Giles </h3>
   <p class="member-info">
     <b> Country: </b>United Kingdom<br>
-    <!-- <b> Position: </b>  <br>
-    <b> Education: </b>  </b> -->
+    <b> Position: </b> Senior Consulting Fellow, Russia and Eurasia Programme of Chatham House <br>
+    <!-- <b> Education: </b>  </b> -->
   </p>
 </div></a>
 
@@ -271,7 +271,7 @@
   <p class="member-info">
     <b> Country: </b>United Kingdom<br>
     <b> Position: </b> Chair of The Alphen Group, Author, Professor <br>
-    <b> Education: </b> Cambridge University </b>
+    <b> Education: </b> Oxford University </b>
   </p>
 </div></a>
 
@@ -306,8 +306,8 @@
   <h3 class="member-title">Dr. Claudia Major</h3>
   <p class="member-info">
     <b> Country: </b>Germany<br>
-    <!-- <b> Position: </b><br>
-    <b> Education: </b> </b> -->
+    <b> Position: </b> Head of the security policy research group at the Stiftung Wissenschaft und Politik (SWP)<br>
+    <b> Education: </b> University of Birmingham (UK)
   </p>
 </div></a>
 
@@ -558,7 +558,7 @@
   <h3 class="member-title">Professor Tomonori Yoshizaki</h3>
   <p class="member-info">
     <b> Country: </b>Japan<br>
-    <b> Position: </b> Vice President of the National Institute for Defense Studies (NIDS) <br>
+    <b> Position: </b> Vice President of the National Institute for Defense Studies (NIDS); Japan MoD <br>
     <!-- <b> Education: </b> </b> -->
   </p>
 </div></a>
