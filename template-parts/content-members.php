@@ -35,6 +35,18 @@
   </p>
 </div></a>
 
+<a href="https://thealphengroup.com/robert-bell"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/bell.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title"> Robert G. Bell </h3>
+  <p class="member-info">
+    <b> Country: </b>United States<br>
+    <b> Position: </b> CEO, Natinoal Security Counsel LLC <br>
+    <b> Education: </b> Fletcher School of Law and Diplomacy </b>
+  </p>
+</div></a>
+
 <a href="https://thealphengroup.com/hans-binnedijk"><div class="member-card">
   <div class="member-image-holder">
     <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/binnendijk.jpg" alt="" width="100%">
@@ -511,7 +523,19 @@
   <p class="member-info">
     <b> Country: </b>United States<br>
     <b> Position: </b> Senior Fellow at the Center for a New American Security (CNAS); Former Deputy Assistant Secretary of Defense for European and NATO Policy <br>
-    <b> Education: </b> Johns Hopkins School of Advanced International Studies </b>
+    <b> Education: </b> Johns Hopkins School of Advanced International Studies
+  </p>
+</div></a>
+
+<a href="https://thealphengroup.com/harlan-ullman"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/ullman.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title">Dr. Harlan K. Ullman</h3>
+  <p class="member-info">
+    <b> Country: </b>United States<br>
+    <b> Position: </b> Chairman, The Killowan Group <br>
+    <b> Education: </b> Fletcher School of Law and Diplomacy
   </p>
 </div></a>
 
@@ -523,7 +547,7 @@
   <p class="member-info">
     <b> Country: </b>United States<br>
     <b> Position: </b> Former Deputy Secretary General of NATO <br>
-    <b> Education: </b> Yale University; Columbia University </b>
+    <b> Education: </b> Yale University; Columbia University
   </p>
 </div></a>
 
@@ -535,7 +559,7 @@
   <p class="member-info">
     <b> Country: </b>Sweden<br>
     <b> Position: </b> Director for Northern Europe at the Atlantic Council; Secretary General of the Swedish Defence Association<br>
-    <b> Education: </b> Lund University </b>
+    <b> Education: </b> Lund University
   </p>
 </div></a>
 
@@ -547,7 +571,7 @@
   <p class="member-info">
     <b> Country: </b>Netherlands<br>
     <b> Position: </b> Founder and Non-Executive Director, The Hague Centre for Strategic Studies (HCSS)<br>
-    <b> Education: </b> Leiden University </b>
+    <b> Education: </b> Leiden University
   </p>
 </div></a>
 
