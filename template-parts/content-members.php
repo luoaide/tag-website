@@ -47,7 +47,7 @@
   </p>
 </div></a>
 
-<a href="https://thealphengroup.com/hans-binnedijk"><div class="member-card">
+<a href="https://thealphengroup.com/hans-binnendijk"><div class="member-card">
   <div class="member-image-holder">
     <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/binnendijk.jpg" alt="" width="100%">
   </div>
@@ -95,6 +95,18 @@
   </p>
 </div></a>
 
+<a href="https://thealphengroup.com/ian-brzezinski"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/brzezinski.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title"> Ian Brzezinski </h3>
+  <p class="member-info">
+    <b> Country: </b> United States <br>
+    <!-- <b> Position: </b> FILL <br> -->
+    <!-- <b> Education: </b> </b> -->
+  </p>
+</div></a>
+
 <a href="https://thealphengroup.com/paul-cornish"><div class="member-card">
   <div class="member-image-holder">
     <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/cornish.jpg" alt="" width="100%">
@@ -131,6 +143,30 @@
   </p>
 </div></a>
 
+<a href="https://thealphengroup.com/jaap-de-hoop-scheffer"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/dehoopscheffer.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title">Professor Jaap De Hoop Scheffer</h3>
+  <p class="member-info">
+    <b> Country: </b>Netherlands<br>
+    <b> Position: </b> Minister of State, Netherlands <br>
+    <b> Education: </b> Leiden University </b>
+  </p>
+</div></a>
+
+<a href="https://thealphengroup.com/rob-de-wijk"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/dewijk.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title">Professor Rob De Wijk</h3>
+  <p class="member-info">
+    <b> Country: </b>Netherlands<br>
+    <b> Position: </b> Founder and Non-Executive Director, The Hague Centre for Strategic Studies (HCSS)<br>
+    <b> Education: </b> Leiden University
+  </p>
+</div></a>
+
 <a href="https://thealphengroup.com/judy-dempsey"><div class="member-card">
   <div class="member-image-holder">
     <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/dempsey.jpg" alt="" width="100%">
@@ -152,6 +188,18 @@
     <b> Country: </b>Italy<br>
     <b> Position: </b> Former Italian Minister of Defense <br>
     <b> Education: </b> NATO Defense College </b>
+  </p>
+</div></a>
+
+<a href="https://thealphengroup.com/konstantin-eggert"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/eggert.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title"> Konstantin V. Eggert</h3>
+  <p class="member-info">
+    <b> Country: </b> Russia <br>
+    <!-- <b> Position: </b> FILL <br> -->
+    <!-- <b> Education: </b> </b> -->
   </p>
 </div></a>
 
@@ -239,15 +287,15 @@
   </p>
 </div></a>
 
-<a href="https://thealphengroup.com/jaap-de-hoop-scheffer"><div class="member-card">
+<a href="https://thealphengroup.com/william-hopkinson"><div class="member-card">
   <div class="member-image-holder">
-    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/dehoopscheffer.jpg" alt="" width="100%">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/hopkinson.jpg" alt="" width="100%">
   </div>
-  <h3 class="member-title">Professor Jaap De Hoop Scheffer</h3>
+  <h3 class="member-title"> William Hopkinson</h3>
   <p class="member-info">
-    <b> Country: </b>Netherlands<br>
-    <b> Position: </b> Minister of State, Netherlands <br>
-    <b> Education: </b> Leiden University </b>
+    <b> Country: </b>United Kingdom<br>
+    <!-- <b> Position: </b> FILL <br>
+    <b> Education: </b> FILL </b> -->
   </p>
 </div></a>
 
@@ -356,6 +404,18 @@
     <b> Country: </b>Latvia<br>
     <b> Position: </b> Professor of International Relations in the Department of Political Science, University of Latvia <br>
     <!-- <b> Education: </b> </b> -->
+  </p>
+</div></a>
+
+<a href="https://thealphengroup.com/eric-povel"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/povel.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title">Eric Povel</h3>
+  <p class="member-info">
+    <b> Country: </b>Netherlands<br>
+    <!-- <b> Position: </b> <br>
+    <b> Education: </b>  </b> -->
   </p>
 </div></a>
 
@@ -491,18 +551,6 @@
   </p>
 </div></a>
 
-<a href="https://thealphengroup.com/stefano-stefanini"><div class="member-card">
-  <div class="member-image-holder">
-    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/stefanini.jpg" alt="" width="100%">
-  </div>
-  <h3 class="member-title">Ambassador (Ret.) Stefano Stefanini</h3>
-  <p class="member-info">
-    <b> Country: </b>Italy<br>
-    <b> Position: </b> Former Diplomatic Advisor to the President of Italy <br>
-    <b> Education: </b> Institute for International Political Studies, Milan </b>
-  </p>
-</div></a>
-
 <a href="https://thealphengroup.com/georges-henri-soutou"><div class="member-card">
   <div class="member-image-holder">
     <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/soutou.jpg" alt="" width="100%">
@@ -512,6 +560,18 @@
     <b> Country: </b>France<br>
     <b> Position: </b> Emeritus Professor at Sorbonne University; Chairman, Institut de Stratégie Comparée <br>
     <!-- <b> Education: </b> </b> -->
+  </p>
+</div></a>
+
+<a href="https://thealphengroup.com/stefano-stefanini"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/stefanini.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title">Ambassador (Ret.) Stefano Stefanini</h3>
+  <p class="member-info">
+    <b> Country: </b>Italy<br>
+    <b> Position: </b> Former Diplomatic Advisor to the President of Italy <br>
+    <b> Education: </b> Institute for International Political Studies, Milan </b>
   </p>
 </div></a>
 
@@ -531,7 +591,7 @@
   <div class="member-image-holder">
     <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/ullman.jpg" alt="" width="100%">
   </div>
-  <h3 class="member-title">Dr. Harlan K. Ullman</h3>
+  <h3 class="member-title">Dr Harlan K. Ullman</h3>
   <p class="member-info">
     <b> Country: </b>United States<br>
     <b> Position: </b> Chairman, The Killowan Group <br>
@@ -560,18 +620,6 @@
     <b> Country: </b>Sweden<br>
     <b> Position: </b> Director for Northern Europe at the Atlantic Council; Secretary General of the Swedish Defence Association<br>
     <b> Education: </b> Lund University
-  </p>
-</div></a>
-
-<a href="https://thealphengroup.com/rob-de-wijk"><div class="member-card">
-  <div class="member-image-holder">
-    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/dewijk.jpg" alt="" width="100%">
-  </div>
-  <h3 class="member-title">Professor Rob De Wijk</h3>
-  <p class="member-info">
-    <b> Country: </b>Netherlands<br>
-    <b> Position: </b> Founder and Non-Executive Director, The Hague Centre for Strategic Studies (HCSS)<br>
-    <b> Education: </b> Leiden University
   </p>
 </div></a>
 
