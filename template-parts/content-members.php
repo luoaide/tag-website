@@ -91,7 +91,7 @@
   <p class="member-info">
     <b> Country: </b>Germany<br>
     <b> Position: </b> Senior Associate Fellow, German Council on Foreign Relations <br>
-    <!-- <b> Education: </b> </b> -->
+    <!-- <b> Education: </b> -->
   </p>
 </div></a>
 
@@ -103,7 +103,7 @@
   <p class="member-info">
     <b> Country: </b> United States <br>
     <!-- <b> Position: </b> FILL <br> -->
-    <!-- <b> Education: </b> </b> -->
+    <!-- <b> Education: </b> -->
   </p>
 </div></a>
 
@@ -115,7 +115,19 @@
   <p class="member-info">
     <b> Country: </b>United Kingdom<br>
     <b> Position: </b> Director, Coracle Analysis Ltd <br>
-    <b> Education: </b> University of Cambridge </b>
+    <b> Education: </b> University of Cambridge
+  </p>
+</div></a>
+
+<a href="https://thealphengroup.com/richard-cripwell"><div class="member-card">
+  <div class="member-image-holder">
+    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/cripwell.jpg" alt="" width="100%">
+  </div>
+  <h3 class="member-title">LTG (Ret.) Richard Cripwell</h3>
+  <p class="member-info">
+    <b> Country: </b>United Kingdom<br>
+    <!-- <b> Position: </b><br>
+    <b> Education: </b> </b> -->
   </p>
 </div></a>
 
@@ -476,18 +488,6 @@
     <b> Country: </b>Denmark<br>
     <b> Position: </b> Professor and Vice Dean for Research at the Faculty of Business and Social Sciences, The University of Southern Denmark<br>
     <!-- <b> Education: </b> </b> -->
-  </p>
-</div></a>
-
-<a href="https://thealphengroup.com/elin-schiffer"><div class="member-card">
-  <div class="member-image-holder">
-    <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/schiffer.jpg" alt="" width="100%">
-  </div>
-  <h3 class="member-title">Elin Schiffer</h3>
-  <p class="member-info">
-    <b> Country: </b>Sweden<br>
-    <!-- <b> Position: </b><br>
-    <b> Education: </b> </b> -->
   </p>
 </div></a>
 
