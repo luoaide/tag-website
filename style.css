@@ -10,7 +10,7 @@ Author URI: https://google.com
 
 /* NORMALIZE ///////////////////////*/
 a {
-  color: black;
+  /* color: black; */
   text-decoration: none;
 }
 
@@ -26,22 +26,16 @@ body {
 
 
 /* NAVIGATION/HEADING/FOOTER CSS ////////////////////////*/
+.header-logo {
+  display: absolute;
+  width: 20%;
+  margin: 10px;
+}
+
 .header {
-  background-color: #F9F9F9;
+  background-color: black;
   color: black;
-  padding-top: 20px;
-  text-align: center;
-  border-bottom: 3px solid #BCDBFF;
-}
-
-.head-text {
-  padding-right: 10px;
-  font-size: 40px;
-}
-
-.subheading {
-  padding-bottom: 20px;
-  font-size: 35px;
+  border-bottom: 3px solid black;
 }
 
 .footer {
@@ -50,16 +44,22 @@ body {
 
 .menu-holder {
   margin: 0;
-  padding-top: 20px;
+  text-align: center;
+  background-color: white;
+  color: white;
+  padding-top: 10px;
   padding: 10px;
 }
 
 .menu-item {
-  padding: 10px;
-  border-bottom: 2px solid #BCDBFF;
+  padding: 5px;
+  border-bottom: 0px solid #BCDBFF;
+  background-color: white;
+  color: red;
   border-radius: 0px;
   display: inline-block;
   margin: 5px;
+  font-size: 20px;
 }
 
 .menu-item:hover {
@@ -69,6 +69,42 @@ body {
   margin-top: 3px;
   cursor: pointer;
 }
+/*/////////////////////////////////////*/
+
+/* FRONT PAGE STYLING /////////*/
+.front-page-section {
+  padding: 10px;
+}
+.row-theme-dark {
+  background-color: #BCDBFF;
+}
+.row-theme-light {
+  background-color: #F1F1F1;
+}
+
+.carousel-item {
+  height: 500px;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-photo {
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel-caption {
+  font-size: 100px;
+}
+
 /*/////////////////////////////////////*/
 
 

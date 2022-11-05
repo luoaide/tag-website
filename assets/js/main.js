@@ -18,8 +18,8 @@ $(document).ready(function(){
     $(this).children("a").css("color", "#3A82D9");
   });
 
-  $(".menu-item").mouseleave(function(){
-    $(this).children("a").css("color", "black");
-  });
+  // $(".menu-item").mouseleave(function(){
+  //   $(this).children("a").css("color", "black");
+  // });
 
 });
