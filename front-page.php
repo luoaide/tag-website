@@ -2,87 +2,96 @@
   get_header();
 ?>
 
-  <br>
-
   <div id="main-content">
 
     <!-- RECENT POSTS AREA -->
-    <section class="front-page-section row-theme-light">
-      <div class="container ">
-        <h2> Recent Posts </h2>
-        <!-- LOOP CODE -->
-        <div id="recentPostsCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#recentPostsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Post 1"></button>
-            <button type="button" data-bs-target="#recentPostsCarousel" data-bs-slide-to="1" aria-label="Post 2"></button>
-            <button type="button" data-bs-target="#recentPostsCarousel" data-bs-slide-to="2" aria-label="Post 3"></button>
+    <section class="first-section row-theme-light">
+      <?php
+        get_template_part( "template-parts/content", "recentleft");
+      ?>
+    </section>
+
+    <!-- TAG PREMIUM BLOG -->
+    <section class="front-page-section row-theme-dark">
+      <div class="container-lg premium-section">
+        <h1 class="display-5 premium-section-title"> TAG Premium Blog </h1>
+          <div>
+            <hr>
+            <p class="lead"> Each month, a member of TAG publishes a concise piece on a salient topic of their choosing. The Premium Blog is editted by Judy Dempsey.</p>
+            <hr>
           </div>
 
-          <div class="carousel-inner">
-        <?php
-          $counter  = 0;
-          if(have_posts()) {
-            while (have_posts()) {
-              the_post();
-              if($counter < 3) {
-                // pass the value of $counter in through the $args array.... $args["counter"]
-                get_template_part( "template-parts/content", "preview", array("counter"=> $counter));
+          <div class="row g-2">
+            <?php
+              $prem_query = new WP_Query( array(
+                "category_name" => "TAG Premium",
+                "posts_per_page" => 4
+              ));
+              $prem_counter = 0;
+              if($prem_query->have_posts()) {
+                while ($prem_query->have_posts()) {
+                  $prem_query->the_post();
+                  if($prem_counter == 0) {
+                    ?> <div class="col"> <?php
+                    get_template_part( "template-parts/content", "premium", array("postID"=> $post->ID));
+                    ?> </div> <?php
+                  } else if($prem_counter == 1) {
+                    ?> <div class="col"> <?php
+                    get_template_part( "template-parts/content", "premiumpreview", array("postID"=> $post->ID));
+                  } else if($prem_counter == 3){
+                    get_template_part( "template-parts/content", "premiumpreview", array("postID"=> $post->ID));
+                    ?> </div> <?php
+                  } else {
+                    get_template_part( "template-parts/content", "premiumpreview", array("postID"=> $post->ID));
+                  }
+                  $prem_counter = $prem_counter + 1;
+                }
               }
+            ?>
+          </div>
+      </div>
+    </section>
+
+    <!-- NEXT RECENT POSTS AREA -->
+    <section class="front-page-section row-theme-light">
+      <div class="container-sm">
+        <h2>Recent Posts</h2>
+        <div class="row g-2">
+          <?php
+            $displayNumber = 4;
+            $recent_posts = wp_get_recent_posts(array(
+              'numberposts' => $displayNumber + 1, // Number of recent posts thumbnails to display
+              'post_status' => 'publish' // Show only the published posts
+            ));
+            $counter = 0;
+            while($counter < $displayNumber) {
+              get_template_part( "template-parts/content", "smallpreview", array("postID" => $recent_posts[$counter + 1]["ID"]));
               $counter = $counter + 1;
             }
-  				}
-        ?>
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#recentPostsCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#recentPostsCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-
+          ?>
         </div>
       </div>
     </section>
 
+    <!-- SPOTLIGHT-->
     <section class="front-page-section row-theme-dark">
-      <!-- TAG FLAGSHIP PROJECTS 2023 -->
-      <div class="container">
-        <h2> TAG FLAGSHIP PROJECTS 2023 </h2>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ukraine Strategy Project</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
+      <div class="container spotlight-section">
+        <h2>Spotlight</h2>
+        <div class="row">
+          <h1 class="">Wilton Park Conference on Future War and Deterrence<h1>
         </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">China and the Future War, Strategy and Technology Conference at Wilton Park</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
+        <div class="row">
+            <p class="lead">
+              Wilton Park and The Alphen Group jointly organised a three day, invitation only conference on future war and deterrence, bringing together over 60 leaders, experts, analysts and commentators from public policy and politics, the armed forces, the private sector, and from technology and innovation. Participants came from the democratic world across North America, Europe and Asia.
+            </p>
+        </div>
+        <div class="row">
+          <a href="https://thealphengroup.com/2022/10/31/the-future-war-and-deterrence-conference-report/">
+            <button type="button" class="btn btn-outline-primary">READ MORE</button>
+          </a>
         </div>
       </div>
     </section>
-
-    <section class="front-page-section row-theme-light">
-      <!-- TAG MEMBERS CAROUSEL -->
-      <div class="container">
-        <h2>TAG Members</h2>
-      </div>
-    </section>
-
-      <!-- SIDEBAR AREA -->
-      <!-- <div class="col-md-3">
-        <?php
-          // get_sidebar();
-        ?>
-
-      </div> -->
 
   </div>
 <?php

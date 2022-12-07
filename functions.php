@@ -1,7 +1,10 @@
 <?php
 
+add_theme_support('post-thumbnails');
+
 function tag_theme_support() {
   // adds dynamic title tag support
+  add_theme_support('post-thumbnails');
   add_theme_support('title-tag');
   add_theme_support('custom-logo');
 }
