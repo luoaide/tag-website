@@ -375,7 +375,7 @@
   <a href="https://thealphengroup.com/imants-liegis">
     <div class="member-card">
       <div class="member-image-holder">
-        <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/leigis.jpg" alt="" width="100%">
+        <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/liegis.jpg" alt="" width="100%">
       </div>
       <p class="member-info">Latvia</p>
       <h4 class="member-title"> Imants Liegis </h4>
@@ -448,7 +448,7 @@
   <a href="https://thealphengroup.com/rainer-meyer-zum-felde">
     <div class="member-card">
       <div class="member-image-holder">
-        <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/zumfelde.jpg" alt="" width="100%">
+        <img class="member-image" src="https://thealphengroup.com/wp-content/themes/TAG_Template/assets/images/meyerzumfelde.jpg" alt="" width="100%">
       </div>
       <p class="member-info">Germany</p>
       <h4 class="member-title"> BG (Ret.) Rainer Meyer Zum Felde </h4>

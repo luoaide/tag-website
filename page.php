@@ -19,16 +19,14 @@
       <!-- LOOP CODE -->
       <?php
         if(is_page("TAG Members")) {
-          ?>
+      ?>
           <hr>
-            <?php get_template_part("template-parts/content", "members"); ?>
-          <?php
+      <?php 
+          get_template_part("template-parts/content", "members"); ?>
+      <?php
         }
-        else if(have_posts()) {
-          while (have_posts()) {
-            the_post();
-            the_content();
-          }
+        else {
+          get_template_part("template-parts/content", "page");
   			}
       ?>
   </div> <!-- Row Wrapper -->
