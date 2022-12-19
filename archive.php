@@ -23,7 +23,7 @@
         if(have_posts()) {
           while (have_posts()) {
             the_post();
-            get_template_part( "template-parts/content", "premiumpreview", array("postID"=> $post->ID));
+            get_template_part( "template-parts/content", "smallpreview", array("postID"=> $post->ID));
           }
 				}
       ?>

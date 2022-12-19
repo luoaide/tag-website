@@ -1,12 +1,13 @@
 
 <section class="front-page-section row-theme-light">
 <div class="footer container-lg text-center py-2 row-theme-light">
+
   <div class="row">
     <a href="https://thealphengroup.com">
       <p class="footer-title display-6">The Alphen Group</p>
     </a>
   </div>
-  <hr>
+
   <div class="row">
     <!-- <div class="col"></div> -->
     <div class="col">

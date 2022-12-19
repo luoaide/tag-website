@@ -15,26 +15,26 @@
   </div>
 
   <!-- MAIN AREA -->
-  <div class="row">
+  <div class="row row-eq-height g-4">
       <!-- LOOP CODE -->
       <?php
         if(is_page("TAG Members")) {
           ?>
           <hr>
-          <div class="row">
             <?php get_template_part("template-parts/content", "members"); ?>
-          </div>
           <?php
         }
         else if(have_posts()) {
           while (have_posts()) {
             the_post();
-            get_template_part( "template-parts/content", "page" );
+            the_content();
           }
   			}
       ?>
   </div> <!-- Row Wrapper -->
 </div>
+
+<br>
 
 <?php
   get_footer();

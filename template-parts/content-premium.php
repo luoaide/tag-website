@@ -13,7 +13,7 @@
     <span class="premiumpreview-post-date"> <i class="far fa-calendar"></i> <?php echo get_the_date("F"); ?> </span>
 
     <a href="<?php echo get_permalink($postID) ?>">
-      <h1 class="card-title nextrecent-post-title display-6">
+      <h1 class="card-title premium-card-title display-6">
         <?php
         echo get_the_title($postID);
         ?>

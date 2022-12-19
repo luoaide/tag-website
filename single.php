@@ -15,7 +15,7 @@ if(have_posts()) {
     the_post_thumbnail("full", ['class' => 'article-background-image']);
   } else {
   ?>
-    <div class="article-background-noimage"></div>
+    <img class="preview-background-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/default-background.jpg"/>
   <?php
   }
   ?>
