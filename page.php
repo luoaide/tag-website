@@ -2,47 +2,38 @@
   get_header();
 ?>
 
-  <br>
-  <div id="main-content" class="container">
-    <header>
-      <h3 class="page-heading"><?php the_title(); ?></h1>
-      <p class="page-heading">
+<br>
+<br>
+<div class="container-lg">
+  <div class="row">
+      <h1 class="page-heading display-1"><?php the_title(); ?></h1>
         <?php
           if(has_excerpt()) {
             the_excerpt();
           }
         ?>
-      </p>
-      <hr>
-    </header>
-
-    <!-- MAIN AREA -->
-    <div class="row gx-2">
-      <div class="col-md-9">
-        <!-- LOOP CODE -->
-        <?php
-          if(is_page("TAG Members")) {
-            get_template_part("template-parts/content", "members");
-          }
-          else if(have_posts()) {
-            while (have_posts()) {
-              the_post();
-              get_template_part( "template-parts/content", "page" );
-            }
-  				}
-        ?>
-      </div>
-
-      <!-- SIDEBAR AREA -->
-      <div class="col-md-3">
-        <?php
-          get_sidebar();
-        ?>
-
-      </div>
-    </div> <!-- Row Wrapper -->
-
   </div>
+
+  <!-- MAIN AREA -->
+  <div class="row row-eq-height g-4">
+      <!-- LOOP CODE -->
+      <?php
+        if(is_page("TAG Members")) {
+      ?>
+          <hr>
+      <?php 
+          get_template_part("template-parts/content", "members"); ?>
+      <?php
+        }
+        else {
+          get_template_part("template-parts/content", "page");
+  			}
+      ?>
+  </div> <!-- Row Wrapper -->
+</div>
+
+<br>
+
 <?php
   get_footer();
 ?>

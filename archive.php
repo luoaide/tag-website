@@ -1,39 +1,39 @@
 <?php
   get_header();
 ?>
+  <br>
+  <br>
+  <div class="container-lg">
+    <div class="row">
+      <div class="col">
+        <h1 class="page-heading display-1"><?php the_category(); ?></h1>
+        <?php echo the_archive_description('<div class="page-heading lead">', '</div>'); ?>
+      </div>
+    </div>
+  </div>
+
+<div class="archive-background">
+
+  <div class="container-lg">
+    <div class="row g-2">
+      <br>
+      <h1 class="display-6 archive-section-title"> Recent Posts </h1>
+      <br>
+      <?php
+        if(have_posts()) {
+          while (have_posts()) {
+            the_post();
+            get_template_part( "template-parts/content", "smallpreview", array("postID"=> $post->ID));
+          }
+				}
+      ?>
+    </div> <!-- Row Wrapper -->
+  </div>
 
   <br>
-  <div id="main-content" class="container">
-    <header>
-      <h3 class="page-heading"><?php the_category(); ?></h1>
-      <p class="page-heading">Below are articles in this category</p>
-      <hr>
-    </header>
 
-    <!-- MAIN AREA -->
-    <div class="row gx-2">
-      <div class="col-md-9">
-        <!-- LOOP CODE -->
-        <?php
-          if(have_posts()) {
-            while (have_posts()) {
-              the_post();
-              get_template_part( "template-parts/content", "article" );
-            }
-  				}
-        ?>
-      </div>
+</div>
 
-      <!-- SIDEBAR AREA -->
-      <div class="col-md-3">
-        <?php
-          get_sidebar();
-        ?>
-
-      </div>
-    </div> <!-- Row Wrapper -->
-
-  </div>
 <?php
   get_footer();
 ?>
