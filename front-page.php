@@ -11,6 +11,32 @@
       ?>
     </section>
 
+    <!-- TAG Ukraine Strategy -->
+    <section class="front-page-section row-theme-dark">
+      <div class="container-lg premium-section">
+        <h1 class="display-5 premium-section-title">[Updated] TAG Ukraine Strategy</h1>
+        <p class="lead"> As Russia's war of aggression enters its second year, this critical TAG update addresses the scope of Western support required to reinforce the goal of the re-estabishment of Ukraine as a secure and sovereign European democracy.</p>
+            <hr>
+            <p class="lead"> Version 2: Released June, 2023 </p>
+            <p class="lead"> Version 1: Released February, 2023 </p>
+              <hr>
+        <div class="row row-eq-height g-2">
+          <?php
+          $UKR_query = new WP_Query( array(
+            "tag" => "UkraineTAG",
+            "posts_per_page" => 2
+            ));
+          if($UKR_query->have_posts()) {
+                    while ($UKR_query->have_posts()) {
+                        $UKR_query->the_post();
+                get_template_part( "template-parts/content", "smallpreview", array("postID" => $post->ID));
+            }
+          }
+          ?>
+        </div>
+      </div>
+    </section> 
+
     <!-- LATEST POST AREA -->
     <div class="section-banner"><h5>Latest Post</h5></div>
     <div class="section-separator"></div>
@@ -19,7 +45,6 @@
         get_template_part( "template-parts/content", "latest");
       ?>
     </section>
-
 
      <!-- NEXT RECENT POSTS AREA -->
      <section class="front-page-section row-theme-dark">
@@ -44,6 +69,7 @@
 
     <div class="section-banner"><h5> Category Highlight </h5></div>
     <div class="section-separator"></div>
+
     <!-- TAG PREMIUM BLOG -->
     <section class="front-page-section row-theme-dark">
       <div class="container-lg premium-section">
