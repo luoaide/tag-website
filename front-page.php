@@ -12,7 +12,7 @@
     </section>
 
     <!--SPOTLIGHT-->
-    <div class="section-banner"><h5>Spotlight</h5></div>
+    <div class="section-banner"><h5>Spotlight</h5> </div>
     <div class="section-separator"></div>
     <section class="front-page-section row-theme-dark">
       <div class="container spotlight-section">
