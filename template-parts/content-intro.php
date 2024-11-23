@@ -7,13 +7,7 @@
                 <h1 class="intro-header display-2">Welcome to TAG</h1> 
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col">
-                <p class="lead intro-text">
-                    We are a group of senior practitioners and analysts applying knowledge and experience to the changing strategic landscape of war and peace, security and defence, and the implications for the transatlantic relationship and European defence.
-                </p>
-            </div>
-        </div> -->
+        
         <div class="row gx-2">
             <?php
                 $category1 = "Member Contributions";

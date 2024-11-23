@@ -1,7 +1,7 @@
 <!-- Pull data on members from the server using the $wpdb class -->
 
 <?php
-  $members = $wpdb->get_results("SELECT page_link, image_link, full_title, country FROM `tag_members` WHERE member_status = 'active' ");
+  $members = $wpdb->get_results("SELECT `ID`, `page_link`, `image_link`, `full_title`, `country` FROM `tag_members` WHERE `member_status` = 'active' ORDER BY `full_title` ");
 
   foreach($members as $member){
 ?>
@@ -12,12 +12,12 @@
             <img class="member-image" src="<?php echo $member->image_link; ?>" alt="" width="100%">
           </div>
 <?php
-if($member->full_title == "Professor Julian Lindley-French"){
+if($member->ID == 43){
 ?>
           <p class="member-info"><b>TAG Chair</b></p><br><br>
 <?php 
 }
-if($member->full_title == "2LT Aiden Roberts"){
+if($member->ID == 58){
 ?>
             <p class="member-info"><b>Webmaster</b></p><br><br>
 <?php 
