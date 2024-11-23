@@ -1,0 +1,24 @@
+name: deploy-tag-website
+run-name: ${{ github.actor }} deployed the latest version to Wordpress
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  web-deploy:
+    name: Deploy TAG Website
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get Latest Code
+      uses: actions/checkout@v3
+    
+    - name: Upload Files
+      uses: SamKirkland/web-deploy@v1
+      with:
+        target-server: secrets.DEPLOY_SERVER
+        remote-user: secrets.DEPLOY_USERNAME
+        private-ssh-key: ${{ secrets.DEPLOY_PASSWORD }}
+        destination-path: /htdocs/wp-content/themes/TAG_Template/
+        source-path: ./TAG_Template/
+  
