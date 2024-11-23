@@ -1,9 +1,7 @@
 name: deploy-tag-website
 run-name: ${{ github.actor }} deployed the latest version to Wordpress
 
-on:
-  release:
-    types: [published]
+on: workflow_dispatch
 
 jobs:
   web-deploy:
