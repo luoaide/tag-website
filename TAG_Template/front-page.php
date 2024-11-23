@@ -63,8 +63,8 @@
       </div>
     </section>
 
-    <!-- <div class="section-banner"><h5> Category Highlight </h5></div>
-    <div class="section-separator"></div> -->
+    <div class="section-banner"><h5>Spotlight</h5> </div>
+    <div class="section-separator"></div>
   
     <!-- TAG Russia Strategy -->
     <section class="front-page-section row-theme-light">
