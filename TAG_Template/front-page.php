@@ -12,12 +12,14 @@
     </section>
 
     <!--SPOTLIGHT-->
+    <div class="section-banner"><h5>Spotlight</h5> </div>
+    <div class="section-separator"></div>
     <!-- TAG Atlantic Charter Strategy -->
     <section class="front-page-section row-theme-dark">
       <div class="container-lg premium-section">
         <h1 class="display-5 premium-section-title">ATLANTIC CHARTER 2025</h1>
-        <h3 class="display-6">A NEW NATO DEAL FOR AMERICA</h3>
-        <p class="lead center"> Atlantic Charter 2025 builds on TAG Transatlantic Compact 2024 by looking beyond the debate over spending 2%, 3% or even 4% of GDP on defense by the European Allies. To that end, the Charter focuses on the <strong> minimum military capabilities, capacities and structures NATO will need to do the job both implicit and explicit in SACEUR’s Family of Plans adopted at the 2023 Vilnius Summit</strong>. The Charter is based on a worst-case analysis of the contingencies and assumptions with which NATO’s defense and deterrence posture could have to contend.
+        <h3 class="premium-section-title">A NEW NATO DEAL FOR AMERICA</h3>
+        <p class="lead center premium-section-title"> Atlantic Charter 2025 builds on TAG Transatlantic Compact 2024 by looking beyond the debate over spending 2%, 3% or even 4% of GDP on defense by the European Allies. To that end, the Charter focuses on the <strong> minimum military capabilities, capacities and structures NATO will need to do the job both implicit and explicit in SACEUR’s Family of Plans adopted at the 2023 Vilnius Summit</strong>. The Charter is based on a worst-case analysis of the contingencies and assumptions with which NATO’s defense and deterrence posture could have to contend.
           <div class="row row-eq-height g-2">
           <?php
           $ATLANTICCHARTER2025_query = new WP_Query( array(
