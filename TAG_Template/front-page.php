@@ -12,25 +12,28 @@
     </section>
 
     <!--SPOTLIGHT-->
-    <div class="section-banner"><h5>Spotlight</h5> </div>
-    <div class="section-separator"></div>
+    <!-- TAG Atlantic Charter Strategy -->
     <section class="front-page-section row-theme-dark">
-      <div class="container spotlight-section">
-        <div class="row">
-          <h1 class="centered"> Report: The Future Defence, Deterrence and Resilience Conference <h1>
-        </div>
-        <div class="row">
-            <p class="lead centered">
-            The Future Defence, Deterrence and Resilience Conference was the third in a trilogy of policy-focussed future war/defence conferences. The 2022 Future War and Deterrence Conference considered defence strategy going forward in an uncertain and strategically competitive world for the Alliance and Partners. The 2023 Future War, Strategy and Technology Conference examined the impact of Emerging and Disruptive Technologies (EDT) on Allied and Partner defence strategy. The Future Defence, Deterrence and Resilience Conference focuses on the balance to be struck between people protection and power projection, civil defence and military defence in the face of the hybrid war in which autocratic powers are already engaged against open, democratic societies. As such, the Conference explored the civil military partnerships that will be vital to affecting such resilience.
-            </p>
-        </div>
-        <div class="row centered">
-          <a href="https://thealphengroup.com/wp-content/uploads/2024/11/WP3395-FDDR-Report.pdf">
-            <button type="button" class="btn btn-outline-primary">Download the report</button>
-          </a>
+      <div class="container-lg premium-section">
+        <h1 class="display-5 premium-section-title">ATLANTIC CHARTER 2025</h1>
+        <h3 class="display-6">A NEW NATO DEAL FOR AMERICA</h3>
+        <p class="lead center"> Atlantic Charter 2025 builds on TAG Transatlantic Compact 2024 by looking beyond the debate over spending 2%, 3% or even 4% of GDP on defense by the European Allies. To that end, the Charter focuses on the <strong> minimum military capabilities, capacities and structures NATO will need to do the job both implicit and explicit in SACEUR’s Family of Plans adopted at the 2023 Vilnius Summit</strong>. The Charter is based on a worst-case analysis of the contingencies and assumptions with which NATO’s defense and deterrence posture could have to contend.
+          <div class="row row-eq-height g-2">
+          <?php
+          $ATLANTICCHARTER2025_query = new WP_Query( array(
+            "tag" => "AtlanticCharter2025",
+            "posts_per_page" => 1
+            ));
+          if($ATLANTICCHARTER2025_query->have_posts()) {
+            while ($ATLANTICCHARTER2025_query->have_posts()) {
+                $ATLANTICCHARTER2025_query->the_post();
+                get_template_part( "template-parts/content", "widepreview", array("postID" => $post->ID));
+            }
+          }
+          ?>
         </div>
       </div>
-    </section>
+    </section> 
 
 
     <!-- LATEST POST AREA -->
@@ -78,15 +81,17 @@
             "posts_per_page" => 1
             ));
           if($RUSSIA_query->have_posts()) {
-                    while ($RUSSIA_query->have_posts()) {
-                        $RUSSIA_query->the_post();
-                get_template_part( "template-parts/content", "widepreview", array("postID" => $post->ID));
+            while ($RUSSIA_query->have_posts()) {
+              $RUSSIA_query->the_post();
+              get_template_part( "template-parts/content", "widepreview", array("postID" => $post->ID));
             }
           }
           ?>
         </div>
       </div>
     </section> 
+
+    <div class="section-separator"></div>
 
   </div>
 <?php
