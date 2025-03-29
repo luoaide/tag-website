@@ -12,7 +12,7 @@
             <?php
                 $category1 = "Member Contributions";
                 $category2 = "Chair's Blog";
-                $category3 = "TAG Premium";
+                $category3 = "TAG Talks";
                 $category4 = "V-Conference";
                 $category_id1 = get_cat_ID($category1);
                 $category_id2 = get_cat_ID($category2);

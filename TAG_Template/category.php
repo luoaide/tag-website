@@ -6,7 +6,7 @@
   <div class="container-lg">
     <div class="row">
       <div class="col">
-        <h1 class="page-heading display-1"><strong>Archives</strong></h1>
+        <h1 class="page-heading display-1">Category: <strong><?php single_cat_title(); ?></strong></h1>
         <?php echo the_archive_description('<div class="page-heading lead">', '</div>'); ?>
       </div>
     </div>
