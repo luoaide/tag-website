@@ -1,7 +1,11 @@
 name: deploy-tag-website
 run-name: ${{ github.actor }} deployed the latest version to Wordpress
 
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   web-deploy:
@@ -11,12 +15,9 @@ jobs:
     - name: Get Latest Code
       uses: actions/checkout@v3
     
-    - name: Upload Files
-      uses: SamKirkland/web-deploy@v1
+    - name: Upload the artifact
+      uses: actions/upload-artifact@v4
       with:
-        target-server: secrets.DEPLOY_SERVER
-        remote-user: secrets.DEPLOY_USERNAME
-        private-ssh-key: ${{ secrets.DEPLOY_PASSWORD }}
-        destination-path: /htdocs/wp-content/themes/TAG_Template/
-        source-path: /TAG_Template/
+        name: wpcom
+        path: ./TAG_Template/
   
