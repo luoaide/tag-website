@@ -25,7 +25,7 @@
           $output = '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '"><div class="metadata recent-post-category"> <i class="far fa-folder"></i> ' . esc_html( $category->name ) . '</div></a>';
           echo $output;
         ?>
-        <div class="metadata recent-post-date"> <i class="far fa-calendar"></i> <?php echo get_the_date(); ?> </div>
+        <div class="metadata recent-post-date"> <i class="far fa-calendar"></i> <?php echo get_the_date('', $recentPost['ID']); ?> </div>
 
         <a href="<?php echo get_permalink($recentPost['ID']) ?>">
           <h1 class="recent-post-title display-5">
