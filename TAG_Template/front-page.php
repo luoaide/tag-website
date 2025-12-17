@@ -17,6 +17,8 @@
     <section class="front-page-section row-theme-dark">
       <div class="container-lg premium-section">
         <div class="row row-eq-height g-2">
+          <h1 class="display-5 premium-section-title">HIGHLIGHT: U.S. NSS 2025</h1>
+          <h3 class="premium-section-title">Collection of contributions on the U.S. National Security Strategy for 2025.</h3>
           <?php
           $NSS25_query = new WP_Query( array(
             "tag" => "TAG_NSS25",
