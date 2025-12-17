@@ -11,10 +11,41 @@
       ?>
     </section>
 
+    <!--SPOTLIGHT NSS 25 Section-->
+    <div class="section-banner"><h5>Spotlight</h5> </div>
+    <div class="section-separator"></div>
+    <section class="front-page-section row-theme-dark">
+      <div class="container-lg premium-section">
+        <div class="row row-eq-height g-2">
+          <?php
+          $NSS25_query = new WP_Query( array(
+            "tag" => "TAG_NSS25",
+            "posts_per_page" => 8
+            ));
+          if($NSS25_query->have_posts()) {
+            while ($NSS25_query->have_posts()) {
+                $NSS25_query->the_post();
+                get_template_part( "template-parts/content", "smallpreview", array("postID" => $post->ID));
+            }
+          }
+          ?>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- LATEST POST AREA -->
+    <div class="section-banner"><h5>Latest Post</h5></div>
+    <div class="section-separator"></div>
+    <section class="latest-section row-theme-light">
+      <?php
+        get_template_part( "template-parts/content", "latest");
+      ?>
+    </section>
+
     <!--SPOTLIGHT-->
     <div class="section-banner"><h5>Spotlight</h5> </div>
     <div class="section-separator"></div>
-    <!-- TAG Atlantic Charter Strategy -->
     <section class="front-page-section row-theme-dark">
       <div class="container-lg premium-section">
         <?php
@@ -41,16 +72,6 @@
         </div>
       </div>
     </section> 
-
-
-    <!-- LATEST POST AREA -->
-    <div class="section-banner"><h5>Latest Post</h5></div>
-    <div class="section-separator"></div>
-    <section class="latest-section row-theme-light">
-      <?php
-        get_template_part( "template-parts/content", "latest");
-      ?>
-    </section>
 
      <!-- NEXT RECENT POSTS AREA -->
      <section class="front-page-section row-theme-dark">
