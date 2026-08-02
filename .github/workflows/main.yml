@@ -16,10 +16,10 @@ jobs:
       uses: actions/checkout@v3
     
     - name: Upload Files
-      uses: SamKirkland/web-deploy@v1
+      uses: SamKirkland/FTP-Deploy-Action@v4.4.0
       with:
-        target-server: ${{ secrets.DEPLOY_SERVER }}
-        remote-user: ${{ secrets.DEPLOY_USERNAME }}
-        private-ssh-key: ${{ secrets.DEPLOY_KEY }}
-        destination-path: /htdocs/wp-content/themes/TAG_Template/
-        source-path: ./TAG_Template/
+        server: ${{ secrets.DEPLOY_SERVER }}
+        username: ${{ secrets.DEPLOY_USERNAME }}
+        password: ${{ secrets.DEPLOY_KEY }}
+        server-dir: /htdocs/wp-content/themes/TAG_Template/
+        local-dir: ./TAG_Template/
