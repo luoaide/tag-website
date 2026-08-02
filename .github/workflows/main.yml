@@ -21,6 +21,7 @@ jobs:
         username: ${{ secrets.DEPLOY_USERNAME }}
         server: ${{ secrets.DEPLOY_SERVER }}
         password: ${{ secrets.DEPLOY_KEY }}
+        sftp_only: true
         port: 22
         local_path: './TAG_Template/*'
         remote_path: '/htdocs/wp-content/themes/TAG_Template/'
