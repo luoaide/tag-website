@@ -11,7 +11,7 @@
       ?>
     </section>
 
-    <!--SPOTLIGHT NSS 25 Section-->
+    <!-- SPOTLIGHT Ways of War 2026/2027
     <div class="section-banner"><h5>Spotlight</h5> </div>
     <div class="section-separator"></div>
     <section class="front-page-section row-theme-dark">
@@ -20,20 +20,20 @@
           <h1 class="display-5 premium-section-title">HIGHLIGHT: U.S. NSS 2025</h1>
           <h3 class="premium-section-title">Collection of contributions on the U.S. National Security Strategy for 2025.</h3>
           <?php
-          $NSS25_query = new WP_Query( array(
-            "tag" => "TAG_NSS25",
-            "posts_per_page" => 8
-            ));
-          if($NSS25_query->have_posts()) {
-            while ($NSS25_query->have_posts()) {
-                $NSS25_query->the_post();
-                get_template_part( "template-parts/content", "smallpreview", array("postID" => $post->ID));
-            }
-          }
+          // $NSS25_query = new WP_Query( array(
+          //   "tag" => "TAG_NSS25",
+          //   "posts_per_page" => 8
+          //   ));
+          // if($NSS25_query->have_posts()) {
+          //   while ($NSS25_query->have_posts()) {
+          //       $NSS25_query->the_post();
+          //       get_template_part( "template-parts/content", "smallpreview", array("postID" => $post->ID));
+          //   }
+          // }
           ?>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- LATEST POST AREA -->
@@ -76,7 +76,7 @@
     </section> 
 
      <!-- NEXT RECENT POSTS AREA -->
-     <section class="front-page-section row-theme-dark">
+     <section class="front-page-section row-theme-light">
       <div class="container-lg">
         <h2 class="centered">Recent Posts</h2>
         <div class="row row-eq-height g-2">
