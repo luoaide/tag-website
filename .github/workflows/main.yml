@@ -20,6 +20,6 @@ jobs:
       with:
         target-server: ${{ secrets.DEPLOY_SERVER }}
         remote-user: ${{ secrets.DEPLOY_USERNAME }}
-        private-ssh-key: ${{ secrets.DEPLOY_PASSWORD }}
+        private-ssh-key: ${{ secrets.DEPLOY_KEY }}
         destination-path: /htdocs/wp-content/themes/TAG_Template/
         source-path: ./TAG_Template/
