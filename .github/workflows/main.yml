@@ -15,9 +15,11 @@ jobs:
     - name: Get Latest Code
       uses: actions/checkout@v3
     
-    - name: Upload the artifact
-      uses: actions/upload-artifact@v4
+    - name: Upload Files
+      uses: SamKirkland/web-deploy@v1
       with:
-        name: wpcom
-        path: ./TAG_Template/
-  
+        target-server: ${{ secrets.DEPLOY_SERVER }}
+        remote-user: ${{ secrets.DEPLOY_USERNAME }}
+        private-ssh-key: ${{ secrets.DEPLOY_PASSWORD }}
+        destination-path: /htdocs/wp-content/themes/TAG_Template/
+        source-path: ./TAG_Template/
